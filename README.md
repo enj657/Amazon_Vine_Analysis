@@ -14,6 +14,10 @@ This dataset ended up having zero reviews from Vine members, and 1,685 reviews f
 
 ![image info](./Resources/total_reviews.png)
 
+The number of reviews that were five star reviews from non-vine members was 631, and 0 from vine members.
+
 ![image info](./Resources/five_star_reviews.png)
+
+To find the percentage of five star reviews out of all the non-vine member reviews I divided the five star reviews from the total reviews. 631/1685 turned out to be 37.4% of the reviews.
 
 ![image info](./Resources/five_star_percentage.png)
