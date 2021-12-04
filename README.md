@@ -10,15 +10,23 @@ The purpose of this analysis is to determine if there is bias toward positive re
 
 ## Results
 
-First we filtered our dataset to only include total votes greater than or equal to 20. Then we filtered our data so that helpful_votes / total_votes was equal to or greater than 50%. After filtering our dataset, there ended up being zero reviews from Vine members, and 1,685 reviews from non-vine members.
+First we filtered our dataset to only include total votes greater than or equal to 20. Then we filtered our data so that helpful_votes / total_votes was equal to or greater than 50%. 
+
+### Total Vine and Non-Vine Reviews
+
+* After filtering our dataset, there ended up being zero reviews from Vine members, and 1,685 reviews from non-vine members.
 
 ![image info](./Resources/total_reviews.png)
 
-The number of reviews that were five star reviews from non-vine members was 631, and 0 from vine members.
+### Total 5 Star Reviews
+
+* The number of reviews that were five star reviews from non-vine members was 631, and 0 from vine members.
 
 ![image info](./Resources/five_star_reviews.png)
 
-To find the percentage of five star reviews out of all the non-vine reviews I divided the five star reviews from the total reviews. 631/1685 turned out to be 37.4% of the reviews.
+### Percentage of 5 Star Reviews
+
+* To find the percentage of five star reviews out of all the non-vine reviews I divided the five star reviews from the total reviews. 631/1685 turned out to be 37.4% of the reviews.
 
 ![image info](./Resources/five_star_percentage.png)
 
