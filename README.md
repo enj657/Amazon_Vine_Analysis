@@ -18,6 +18,10 @@ The number of reviews that were five star reviews from non-vine members was 631,
 
 ![image info](./Resources/five_star_reviews.png)
 
-To find the percentage of five star reviews out of all the non-vine member reviews I divided the five star reviews from the total reviews. 631/1685 turned out to be 37.4% of the reviews.
+To find the percentage of five star reviews out of all the non-vine reviews I divided the five star reviews from the total reviews. 631/1685 turned out to be 37.4% of the reviews.
 
 ![image info](./Resources/five_star_percentage.png)
+
+## Summary
+
+Since this dataset had no Vine member reviews, I am unable to state if there is any positivity bias for reviews in the Vine program. There was no data for vine members. In order to determine if Vine members are more likely to be positively bias we need to run tests over other (multiple) Amazon review datasets.
