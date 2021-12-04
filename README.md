@@ -2,7 +2,7 @@
 
 ## Overview of Analysis
 
-For this project we needed to analyze Amazon reviews that were written by members of the paid Amazon Vine program. I picked a dataset and used PySpark to perform the ETL process, and I loaded the transformed data into pgAdmin. I then used PySpark to deterine if there was any bias toward favorable reviews from Vine members compared to non-vine members.
+For this project I needed to analyze Amazon reviews that were written by members of the paid Amazon Vine program. I picked a dataset and used PySpark to perform the ETL process, and I loaded the transformed data into pgAdmin. I then used PySpark to deterine if there was any bias toward favorable reviews from Vine members compared to non-vine members.
 
 ### Purpose
 
@@ -10,7 +10,7 @@ The purpose of this analysis is to determine if there is bias toward positive re
 
 ## Results
 
-This dataset ended up having zero reviews from Vine members, and 1,685 reviews from non-vine members.
+First we filtered our dataset to only include total votes greater than or equal to 20. Then we filtered our data so that helpful_votes / total_votes was equal to or greater than 50%. After filtering our dataset, there ended up being zero reviews from Vine members, and 1,685 reviews from non-vine members.
 
 ![image info](./Resources/total_reviews.png)
 
